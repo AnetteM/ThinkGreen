@@ -1,3 +1,49 @@
 #mainNav{
     background-color: rgb(167, 201, 87);
 }
+
+.main{
+    height: 1000px;
+}
+
+body{
+    background-image: url(assets/img/fondoq.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagen{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.imgDefiniciones{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: all 0.5 linear;
+}
+
+.imgDefiniciones: hover{
+    transform: scale(1.5);
+}
+
+.botonMostrarMas{
+    display: flex;
+    justify-content: center;
+}
+
+.botonJugar{
+    display: flex;
+    justify-content: center;
+}
+
+#inf{
+    margin-left: auto;
+    margin-right: auto;
+}
